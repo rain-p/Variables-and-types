@@ -7,6 +7,12 @@ public class Main{
         System.out.println("Now playing the song");
         mbox.playSong(mbox.getSongID(), mbox.getPremiumSong(), 2);
         
+        MusicBox mbox1 = new MusicBox("S34TG654", '8', "Raindrops2", "Mistyp", 
+        "The path less traveledo", "Countryp", "BZEE Musici", "Rhythm Divinel");
+
+        System.out.println("Now playing the song");
+        mbox.playSong(mbox.getSongID(), mbox.getPremiumSong(), 1);
+            
         // --- TODO
 
         /* Repeat the above code to create another object  
